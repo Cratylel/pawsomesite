@@ -45,3 +45,10 @@ body {
 a {
 	color: rgb(217, 128, 255)
 }
+
+.badges {
+	image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
