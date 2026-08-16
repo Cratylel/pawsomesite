@@ -38,6 +38,10 @@ body {
 	text-align: center;
 }
 
+.smol {
+	font-size: 0.75rem;
+}
+
 a {
 	color: rgb(217, 128, 255)
 }
