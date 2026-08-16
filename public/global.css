@@ -5,9 +5,10 @@ body {
 
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 75ch;
+	max-width: 85ch;
 
-	background-color: rgb(38, 22, 48);
+	/* background-color: rgb(38, 22, 48); */
+	background-image: url("/dr.png");
 	color: rgb(229, 185, 255);
 	font-family: sans-serif;
 }
@@ -17,17 +18,19 @@ body {
 	margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+	background-color: rgba(38, 22, 48, .5);
+	padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
 	body {
-		width: 60%;
+		width: 80%;
 	}
 }
 
 @media screen and (min-width: 1920px) {
 	body {
-		width: 60%;
+		width: 70%;
 	}
 }
 
