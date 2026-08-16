@@ -7,6 +7,10 @@
 		"directory": "./public",
 		"not_found_handling": "none"
 	},
+	"kv_namespaces": [
+		{ "binding": "KV", "id": "8ad7a76064554e3b86886eee7f83d474" }
+	],
+	"vars": { "PAW_API_KEY": "" },
 	"observability": {
 		"enabled": true
 	},
