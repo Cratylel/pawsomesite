@@ -3,6 +3,10 @@
 	"name": "pawsomesite",
 	"main": "./src/worker/index.ts",
 	"compatibility_date": "2025-10-08",
+	"assets": {
+		"directory": "./public",
+		"not_found_handling": "none"
+	},
 	"observability": {
 		"enabled": true
 	},
