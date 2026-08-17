@@ -10,6 +10,13 @@
 	"kv_namespaces": [
 		{ "binding": "KV", "id": "8ad7a76064554e3b86886eee7f83d474" }
 	],
+	"d1_databases": [
+		{
+			"binding": "COMMENTS",
+			"database_name": "pawsomesite-comments",
+			"database_id": "0f37ae6c-77dd-4460-857e-6dc91081dfe7"
+		}
+	],
 	"vars": { "PAW_API_KEY": "" },
 	"observability": {
 		"enabled": true
