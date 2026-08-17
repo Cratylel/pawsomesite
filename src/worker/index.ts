@@ -114,9 +114,9 @@ app.post("/comments", async (c) => {
 	const form = await c.req.parseBody();
 	if (form.website) return c.redirect("/#comments", 303);
 
-	const body = typeof form.body === "string" ? form.body.trim() : "";
+	const body = typeof form.body === "string" ? form.body.replaceAll("\r\n", "\n").trim() : "";
 	if (!body) return c.redirect("/?comment=empty#comments", 303);
-	if (body.length > 1000) return c.redirect("/?comment=long#comments", 303);
+	if (body.length > 1050) return c.redirect("/?comment=long#comments", 303);
 
 	const visitorHeader = c.req.header("cf-connecting-ip");
 	const visitor = visitorHeader || "local";
