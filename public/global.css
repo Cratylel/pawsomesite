@@ -137,7 +137,7 @@ body {
 }
 
 a {
-	color: rgb(217, 128, 255)
+	color: rgb(217, 128, 255);
 }
 
 .badges {
@@ -145,4 +145,13 @@ a {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     image-rendering: -webkit-optimize-contrast;
+}
+
+.special {
+	color:rgb(229, 185, 255);
+    border: 1px solid rgba(168, 85, 247, 0.35);
+    border-radius: 6px;
+    padding: 10px 14px;
+    background: rgba(168, 85, 247, 0.08);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.15);
 }
