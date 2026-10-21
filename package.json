@@ -3,7 +3,7 @@
 	"description": "a minimal server-rendered site running on cloudflare workers",
 	"private": true,
 	"dependencies": {
-		"hono": "^4.13.2"
+		"hono": "^4.13.11"
 	},
 	"devDependencies": {
 		"@types/node": "24.10.1",
