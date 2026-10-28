@@ -16,7 +16,9 @@ const build = () => {
     const height = document.documentElement.scrollHeight;
     pageWidth = width;
     pageHeight = height;
-    tile = Math.max(14, Math.ceil(Math.sqrt(width * height / 15000)));
+    // tile size follows the width only, so a long comments list
+    // doesn't turn the voxels into bricks
+    tile = Math.max(14, Math.ceil(width / 140));
     if (damp < .98) tile = Math.max(tile, 24);
 
     let dpr = Math.min(2, devicePixelRatio || 1);
